@@ -5,7 +5,9 @@
 
 <div class="bg-gray-100">
 	<div class="h-screen flex flex-col justify-between">
-		<div class="grow self-center w-full max-w-md sm:max-w-xl lg:max-w-6xl lg:px-8">
+		<div
+			class="grow self-center w-full px-4 max-w-md sm:max-w-xl lg:max-w-6xl lg:px-8 2xl:max-w-full"
+		>
 			<Header />
 
 			<main>

@@ -8,8 +8,8 @@
 	export let buttonAction: VoidFunction
 </script>
 
-<section class="grid lg:grid-cols-2">
-	<div class="flex flex-col gap-2 lg:py-12">
+<section class="grid lg:grid-cols-2 2xl:grid-cols-5">
+	<div class="flex flex-col gap-2 lg:py-12 2xl:max-w-xl 2xl:col-span-2 2xl:justify-self-center">
 		<img
 			class="rounded-lg shadow-lg sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
 			src={img}
@@ -32,7 +32,7 @@
 		>
 	</div>
 
-	<div class="hidden relative lg:block">
+	<div class="hidden relative lg:block 2xl:col-span-3">
 		<img class="absolute inset-0 w-full h-full object-cover object-center" src={img} alt={imgAlt} />
 	</div>
 </section>
