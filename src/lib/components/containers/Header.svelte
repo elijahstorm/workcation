@@ -10,7 +10,12 @@
 			<img src={logo} alt="Worcation" />
 		</a>
 
-		<a class="contents" href="https://github.com/elijahstorm" target="_blank">
+		<a
+			class="contents"
+			href="https://github.com/elijahstorm"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>

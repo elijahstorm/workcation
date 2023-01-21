@@ -23,7 +23,9 @@
 	<footer class="px-8 py-6 bg-brand-900 text-slate-200 flex justify-between">
 		<p>Workcation</p>
 		<p>
-			<a href="https://github.com/elijahstorm" target="_blank"> Elijah Storm </a>
+			<a href="https://github.com/elijahstorm" target="_blank" rel="noopener noreferrer">
+				Elijah Storm
+			</a>
 		</p>
 	</footer>
 </div>
