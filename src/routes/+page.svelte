@@ -3,6 +3,7 @@
 	import { base } from '$app/paths'
 	import SizedContent from '$lib/components/containers/SizedContent.svelte'
 	import CallToAction from '$lib/components/marketing/CallToAction.svelte'
+	import PopularDestinations from '$lib/components/marketing/PopularDestinations.svelte'
 </script>
 
 <svelte:head>
@@ -30,9 +31,5 @@ nice weather even when you're not on vation."
 </SizedContent>
 
 <SizedContent>
-	<p>somethung else</p>
-</SizedContent>
-
-<SizedContent>
-	<p>somethung else</p>
+	<PopularDestinations />
 </SizedContent>
