@@ -3,20 +3,19 @@
 	import '../app.css'
 </script>
 
-<div class="bg-gray-100">
-	<div class="h-screen flex flex-col justify-between">
-		<div
-			class="grow self-center w-full px-4 max-w-md sm:max-w-xl lg:max-w-6xl lg:px-8 2xl:max-w-full"
-		>
-			<Header />
+<div class="bg-gray-200 min-h-screen flex flex-col justify-between">
+	<div class="min-w-full grow self-center">
+		<Header />
 
-			<main>
-				<slot />
-			</main>
-		</div>
-
-		<footer class="px-8 py-6 bg-indigo-900 text-slate-200">
-			<p>Workcation</p>
-		</footer>
+		<main class="[&>*:nth-child(odd)]:bg-gray-100">
+			<slot />
+		</main>
 	</div>
+
+	<footer class="px-8 py-6 bg-indigo-900 text-slate-200 flex justify-between">
+		<p>Workcation</p>
+		<p>
+			<a href="https://github.com/elijahstorm" target="_blank"> Elijah Storm </a>
+		</p>
+	</footer>
 </div>
