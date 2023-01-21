@@ -20,10 +20,12 @@
 			alt={imgAlt}
 		/>
 
-		<h1 class="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl sm:mt-6 lg:mt-0 lg:text-3xl">
+		<h1
+			class="mt-2 text-2xl font-headline tracking-tight font-semibold text-gray-900 sm:text-3xl sm:mt-6 lg:mt-0 lg:text-3xl"
+		>
 			{header}
 			<br />
-			<span class="text-indigo-500"> {headerHighlight} </span>
+			<span class="text-brand-500"> {headerHighlight} </span>
 		</h1>
 
 		<p class="text-gray-500 sm:text-xl sm:mt-2">

@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores'
-	import logo from '$lib/images/logo.svg'
+	import logo from '$lib/images/logo-brand.svg'
 	import github from '$lib/images/github.svg'
 	import SizedContent from '$lib/components/containers/SizedContent.svelte'
 </script>

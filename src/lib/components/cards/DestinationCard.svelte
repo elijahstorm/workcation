@@ -24,6 +24,6 @@
 
 		<h4 class="text-sm text-gray-500">${price} / night average</h4>
 
-		<p class="mt-4 text-sm text-indigo-600">Explore {propertyCount} properties</p>
+		<p class="mt-4 text-sm text-brand-600">Explore {propertyCount} properties</p>
 	</div>
 </button>
