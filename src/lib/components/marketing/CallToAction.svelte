@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Button from '../interation/Button.svelte'
+
 	export let img: string
 	export let imgAlt: string
 	export let header: string
@@ -6,6 +8,8 @@
 	export let paragraph: string
 	export let buttonText: string
 	export let buttonAction: VoidFunction
+	export let secondaryButtonText: string | undefined
+	export let secondaryButtonAction: VoidFunction | undefined
 </script>
 
 <section class="grid lg:grid-cols-2 2xl:grid-cols-5">
@@ -26,10 +30,17 @@
 			{paragraph}
 		</p>
 
-		<button
-			class="self-start mt-2 px-5 py-3 bg-indigo-500 text-white rounded-lg uppercase tracking-wider font-semibold text-sm shadow-lgtext-4xl sm:text-base sm:mt-4"
-			on:click={buttonAction}>{buttonText}</button
-		>
+		<div class="space-x-2">
+			<Button
+				primary
+				extraClassInfo="transform hover:-translate-y-0.5 focus:-translate-y-0.5 shadow-lg"
+				{buttonText}
+				{buttonAction}
+			/>
+			{#if secondaryButtonText && secondaryButtonAction}
+				<Button buttonText={secondaryButtonText} buttonAction={secondaryButtonAction} />
+			{/if}
+		</div>
 	</div>
 
 	<div class="hidden relative lg:block 2xl:col-span-3">

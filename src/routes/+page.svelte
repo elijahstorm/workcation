@@ -20,4 +20,8 @@ nice weather even when you're not on vation."
 	buttonAction={() => {
 		goto(base + '/book')
 	}}
+	secondaryButtonText="Learn more"
+	secondaryButtonAction={() => {
+		goto(base + '/learn')
+	}}
 />
