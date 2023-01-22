@@ -13,7 +13,7 @@
 
 <SizedContent>
 	<CallToAction
-		img="/img/beach-work.jpg"
+		img="{base}/img/beach-work.jpg"
 		imgAlt="woman sitting on beach"
 		header="You can work from anywhere."
 		headerHighlight="Take advantage of it."

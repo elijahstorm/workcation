@@ -15,7 +15,7 @@
 >
 	<img
 		class="h-32 flex-shrink-0 aspect-square"
-		src="/img/destinations/{img}"
+		src="{base}/img/destinations/{img}"
 		alt="landscape of {name}"
 	/>
 
